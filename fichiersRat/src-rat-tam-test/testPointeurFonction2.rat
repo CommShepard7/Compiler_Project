@@ -1,0 +1,21 @@
+//Modification d'une variable par une fonction
+
+typedef Droite = struct {int* x int *y};
+Droite translationVerticale (Droite* d int dp){
+    (*((*d).x)) += dp;
+    (*((*d).y)) += dp;
+   return ( (*d) );
+}
+
+
+main{
+  int y1 = 15;
+  int z1 = 10;
+  Droite d = {null (new int)};
+  Droite* d1 = &d;
+  (*d1) = {&y1 &z1};
+  int r = 15;
+  Droite dt = call translationVerticale (d1 10);
+  print (*(dt.x));
+  print (*(dt.y));
+}

@@ -1,0 +1,6 @@
+main{
+  typedef PInt = int * ; 
+  PInt x = (new int);
+  (*x) = 15;
+  print((*x));
+}

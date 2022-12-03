@@ -1,0 +1,7 @@
+main{
+  typedef Rat = rat;
+  typedef Int2 = int;
+  Rat x = [1/2];
+  Int2 y = denom x;
+  print(y);
+}

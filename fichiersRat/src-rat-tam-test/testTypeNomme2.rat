@@ -1,0 +1,13 @@
+main{
+  typedef Rat = rat;
+  typedef Rat2 = Rat;
+  typedef Rat3 = Rat2;
+  typedef Int2 = int;
+  typedef Int3 = Int2;
+  typedef Bool = bool;
+  Rat3 x = [1/2];
+  Bool y = (denom x = 2);
+  print(y);
+}
+
+

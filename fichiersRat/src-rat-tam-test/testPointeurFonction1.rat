@@ -1,0 +1,13 @@
+int* f1 (int* i){
+ int* x = i;
+ (*x) = 20;
+ return x;
+}
+
+main{
+  int y = 0;
+  int z = 0; 
+  int r = 15;
+  int* x = call f1 (&r);
+  print (r);
+}

@@ -1,0 +1,16 @@
+main{
+
+  typedef Droite = struct {int x int y};
+  typedef Droite2 = struct {int x1 struct { int j struct {int k Droite d } * d1 } d2 };
+  typedef Droite3 = struct {int k2 Droite2 d3};
+  
+  Droite d_1 = {10 15};
+  struct {int x3 Droite dp} d_2 = {2 d_1}; 
+  Droite2 d_3 = {1 {2 &d_2}};
+  Droite3 d_4 = {3 d_3};
+  
+  print ((((*(((d_4.d3).d2).d1)).d).x));
+  
+}
+
+
